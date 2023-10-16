@@ -15,21 +15,21 @@ $ git config --global alias.br branch
 $ git config --global alias.ci commit
 $ git config --global alias.st status
 
-Git init
-Create a local repository:
-$ git init
-Git clone
-Make a local copy of the server repository.
-$ git clone
 
-Git add
+Create a local repository:
+$ git init - this command will help to initialize the git
+
+Make a local copy of the server repository.
+$ git clone - this command will be used to clone the repository
+
+
 Add a file to staging (Index) area:
-$ git add Filename
+$ git add Filename - this will add the file to satgging area
 Add all files of a repo to staging (Index) area:
-$ git add*
-Git commit
+$ git add* - If we have multiple file to staging, then we can used add ./*
+
 Record or snapshots the file permanently in the version history with a message.
-$ git commit -m " Commit Message"
+$ git commit -m " Commit Message" - using this we can write the comment for the commited changes
 
 Git diff
 Track the changes that have not been staged: $ git diff
